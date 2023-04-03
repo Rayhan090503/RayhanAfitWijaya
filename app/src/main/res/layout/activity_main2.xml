@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <RelativeLayout
+        android:id="@+id/bg_merah1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/bg_1">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="Benefits"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="40dp"/>
+
+        <ImageView
+            android:id="@+id/scan1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/scan"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="15dp"/>
+
+        <ImageView
+            android:id="@+id/nontifikasi"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@id/scan1"
+            android:background="@drawable/nontifikasi"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="20dp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:text="Promo yang dapat diklaim"
+        android:layout_below="@id/bg_merah1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@id/text"
+        android:layout_width="400dp"
+        android:layout_height="30dp"
+        android:text="Jangan lewatkan kesempatan untuk mendapatkan item ini!"
+        android:layout_below="@id/bg_merah1"
+        android:textColor="@color/black"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="50dp"/>
+    
+    <ImageView
+        android:id="@+id/img_1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/sirup"
+        android:layout_below="@id/text"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:text="ABC SQUASH DELIGHT BTL (BELI 6..."
+        android:layout_below="@id/img_1"
+        android:layout_marginLeft="30dp"
+        android:textSize="10dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:text="Rp.9.900 Member"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_below="@id/img_1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/text8"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/img_1"
+        android:text="Rp.11.200"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="45dp"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/sirup2"
+        android:layout_toRightOf="@id/img_1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="190dp"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:text="ABC SYRUP SPECIAL GRADE..."
+        android:layout_below="@id/img_1"
+        android:layout_marginLeft="210dp"
+        android:textSize="10dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:text="Rp.14.900 Member"
+        android:layout_below="@id/img_1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="210dp"
+        android:textColor="@android:color/holo_red_dark"/>
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:text="Rp.17.900"
+        android:textSize="10dp"
+        android:layout_below="@id/img_1"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="210dp"
+        android:textColor="@color/black"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/text8">
+
+        <ImageView
+            android:id="@+id/img_3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/sirup3"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:text="MARJAN SYRUP BOUDOIN..."
+            android:textSize="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@id/img_3"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:text="Rp.14.900 Member"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@id/img_3"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/holo_red_dark"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:text="Rp.20.900"
+            android:layout_below="@id/img_3"
+            android:layout_marginTop="50dp"
+            android:textSize="10dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/black"/>
+
+
+
+
+        <ImageView
+            android:id="@+id/img_4"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/kue1"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/img_3"/>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:text="MONDE BISCUIT BUTTER COOKIES KLG..."
+            android:textSize="10dp"
+            android:layout_marginLeft="210dp"
+            android:layout_below="@id/img_3"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:text="Rp.115.500 Member"
+            android:layout_marginLeft="210dp"
+            android:layout_below="@id/img_3"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/holo_red_dark"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:text="Rp.125.500"
+            android:layout_below="@id/img_3"
+            android:layout_marginTop="50dp"
+            android:textSize="10dp"
+            android:layout_marginLeft="210dp"
+            android:textColor="@color/black"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/rounded_white_shadow"
+            android:layout_marginTop="245dp">
+
+            <ImageView
+                android:id="@+id/apel"
+                android:layout_width="48dp"
+                android:layout_height="30dp"
+                android:background="@drawable/apel2"
+                android:layout_marginLeft="53dp"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="What's on"
+                android:textColor="@color/black"
+                android:layout_below="@id/apel"
+                android:layout_marginLeft="56dp"
+                android:textSize="10dp"/>
+
+            <ImageView
+                android:id="@+id/love"
+                android:layout_width="45dp"
+                android:layout_height="35dp"
+                android:background="@drawable/love2"
+                android:layout_toRightOf="@id/apel"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="Benefits"
+                android:textSize="10dp"
+                android:layout_below="@id/apel"
+                android:layout_marginLeft="186dp"
+                android:textColor="@android:color/holo_red_dark"/>
+
+            <ImageView
+                android:id="@+id/orang"
+                android:layout_width="45dp"
+                android:layout_height="40dp"
+                android:background="@drawable/orang"
+                android:layout_toRightOf="@id/love"
+                android:layout_marginLeft="83dp"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="Account"
+                android:textSize="10dp"
+                android:layout_below="@id/apel"
+                android:layout_marginLeft="310dp"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+    </RelativeLayout>

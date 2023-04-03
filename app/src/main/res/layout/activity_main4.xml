@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <RelativeLayout
+        android:id="@+id/bg_merah1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/bg_1">
+
+        <ImageView
+            android:id="@+id/panahsamping2"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:background="@drawable/panahsamping2"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="32dp"/>
+
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="Promo Klaim"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="40dp"/>
+
+        <ImageView
+            android:id="@+id/scan1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/scan"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="15dp"/>
+
+        <ImageView
+            android:id="@+id/nontifikasi"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@id/scan1"
+            android:background="@drawable/nontifikasi"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="20dp"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/bg_4"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@drawable/sirup4"
+        android:layout_below="@id/bg_merah1"/>
+
+
+    <LinearLayout
+        android:id="@+id/bg_3"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/bg_4"
+        android:background="@drawable/bg_3"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/love3"/>
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:text="Klaim"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/bg_3"
+        android:layout_marginLeft="15dp"
+        android:text="ABC SQUASH DELIGHT BTL (BELI 6 LEBIH HEMAT)(SEMUA RASA)"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:text="ABC SQUASH DELIGHT BTL (BELI 6 LEBIH HEMAT)(SEMUA RASA)"
+        android:layout_below="@id/bg_3"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="110dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:text="Rp 9.900 Member"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_below="@id/bg_3"
+        android:layout_marginTop="150dp"/>
+
+</RelativeLayout>
